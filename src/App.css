@@ -1,0 +1,108 @@
+.logo{
+  display: block;
+  margin: auto;
+  width: 100px;
+
+}
+body{
+  background: linear-gradient(#E0F7FA,#F5F5DC,#00796B);
+  background-repeat: no-repeat;
+  min-width: 320px;
+  min-height: 100vh;
+}
+.container{
+  max-width: 1055px;
+  overflow-y: scroll;
+  margin: auto;
+  height: 79vh;
+  border: 1px solid black;
+  border-radius: 18px;
+}
+.message{
+  background-color: #FFF3E0;
+  width: 24%;
+  padding: 10px;
+  margin: 17px 2px;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+.left{
+  float:left;
+  clear:both;
+  margin-left: 30px;
+}
+.right{
+  float:right;
+  clear: both;
+  margin-right: 30px;
+}
+.bsend{
+  width:50px;
+  height: 45px;
+  padding: 0;
+  margin: 0;
+  background: url("assets/send.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bsend{
+  background-color: #FFF3E0;
+  border-radius: 32px;
+  margin-left: 15px;
+  
+}
+ .text{
+  height: 40px;
+  width:800px;
+  border-radius: 12px;
+  overflow-y:scroll;
+}
+.send{
+text-align: center;
+display: flex;
+padding-left: 17%;
+}
+@media (min-width: 600px) {
+  .container {
+    width: 80%;
+  }
+  
+  .message {
+    width: 45%;
+  }
+  
+  .text {
+    width: 80%;
+    font-size: 18px; /* Increase font size for better readability */
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 75%;
+  }
+  
+  .message {
+    width: 40%;
+  }
+  
+  .text {
+    width: 70%;
+    font-size: 20px; /* Further increase font size for larger screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 70%;
+  }
+  
+  .message {
+    width: 35%;
+  }
+  
+  .text {
+    width: 800px;
+    font-size: 22px; /* Adjust font size as needed for very large screens */
+  }
+}
